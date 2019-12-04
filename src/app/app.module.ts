@@ -8,6 +8,7 @@ import { ServersComponent } from './servers/servers.component';
 import { WarningComponent } from './warning-alert/warning.component';
 import { SuccessMessageComponent } from './success-message/success-message.component';
 import { InputBindingTestComponent } from './input-binding-test/input-binding-test.component';
+import { CombiningDataBindingComponent } from './combining-data-binding/combining-data-binding.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { InputBindingTestComponent } from './input-binding-test/input-binding-te
     ServersComponent,
     WarningComponent,
     SuccessMessageComponent,
-    InputBindingTestComponent
+    InputBindingTestComponent,
+    CombiningDataBindingComponent
   ],
   imports: [
     BrowserModule,

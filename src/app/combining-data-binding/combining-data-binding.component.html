@@ -1,0 +1,13 @@
+<label>Book Name</label>
+<input
+    type="text"
+    class="form-control"
+    [(ngModel)]="bookName"
+>
+<p>The title of the book is {{ bookName }}</p>
+
+<button
+    class="btn btn-secondary"
+    (click)="onReset()"
+    [disabled]="!bookName"
+>Reset Book</button>

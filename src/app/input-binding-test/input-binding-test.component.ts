@@ -25,7 +25,7 @@ export class InputBindingTestComponent implements OnInit {
   }
 
   onUserAdd() {
-    this.userAddStatus = 'New user was added.'
+    this.userAddStatus = 'New user was added. The name is ' + this.userName;
   }
 
   onUpdateUserName(event: Event) {
