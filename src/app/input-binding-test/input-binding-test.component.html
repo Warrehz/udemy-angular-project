@@ -1,8 +1,14 @@
 <label>User Name</label>
-<input
+<!-- <input
     type="text"
     class="form-control"
     (input)="onUpdateUserName($event)"
+>
+-->
+<input
+    type="text"
+    class="form-control"
+    [(ngModel)]="userName"
 >
 <p>{{ userName }}</p>
 <button

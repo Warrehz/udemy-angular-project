@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class InputBindingTestComponent implements OnInit {
 
   allowNewUser = false;
-  userName = '';
+  userName = 'test user';
   userAddStatus = 'No user has been added.';
 
   getTime() {
