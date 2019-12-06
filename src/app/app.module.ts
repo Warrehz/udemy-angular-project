@@ -9,6 +9,7 @@ import { WarningComponent } from './warning-alert/warning.component';
 import { SuccessMessageComponent } from './success-message/success-message.component';
 import { InputBindingTestComponent } from './input-binding-test/input-binding-test.component';
 import { CombiningDataBindingComponent } from './combining-data-binding/combining-data-binding.component';
+import { DirectiveTestComponent } from './directive-test/directive-test.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CombiningDataBindingComponent } from './combining-data-binding/combinin
     WarningComponent,
     SuccessMessageComponent,
     InputBindingTestComponent,
-    CombiningDataBindingComponent
+    CombiningDataBindingComponent,
+    DirectiveTestComponent
   ],
   imports: [
     BrowserModule,
