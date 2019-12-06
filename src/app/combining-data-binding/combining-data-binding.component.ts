@@ -8,15 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class CombiningDataBindingComponent implements OnInit {
 
   bookName = '';
+  bookAdded = false;
 
-  constructor() { 
+  constructor() {
   }
 
   ngOnInit() {
   }
 
-  onReset() {
-    this.bookName = '';
+  onBookSubmit() {
+    this.bookAdded = true;
   }
 
 

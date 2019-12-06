@@ -4,10 +4,14 @@
     class="form-control"
     [(ngModel)]="bookName"
 >
-<p>The title of the book is {{ bookName }}</p>
+<!-- <p>The title of the book is {{ bookName }}</p> -->
 
 <button
     class="btn btn-secondary"
-    (click)="onReset()"
-    [disabled]="!bookName"
->Reset Book</button>
+    (click)="onBookSubmit()"
+>Submit Book</button>
+
+<p *ngIf="bookAdded; else noBook">Book was added. Book is {{ bookName }}</p>
+<ng-template #noBook>
+    <p>No book has been added.</p>
+</ng-template>
